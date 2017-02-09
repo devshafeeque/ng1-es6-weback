@@ -1,5 +1,5 @@
 # ng1-es6-weback
-AngularJS ( 1.6 ) written in ES6 which converts to ES5 using webpack
+AngularJS ( 1.6 ) written in ES6. Webpack will convert ES6 to ES5.
 
 # Install 
 ```
