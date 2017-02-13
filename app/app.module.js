@@ -14,12 +14,12 @@ import home from './components/home/home.component';
 import samplePage from './components/sample/sample-page.component';
 
 // services
+import appService from './app.service';
 
 // routing
 import routing from './app.route';
 
 // directives
-
 
 // constants
 const MODULE_NAME = 'app';
@@ -30,6 +30,7 @@ angular.module(MODULE_NAME, [uiRouter, ngSanitize, uiBootstrap])
     .component('myApp', mainApp)
     .component('home', home)
     .component('samplePage', samplePage)
+    .service('appService', appService)
     .config(routing)
 
 export default MODULE_NAME;
