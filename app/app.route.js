@@ -8,8 +8,8 @@ export default function routing ($stateProvider, $urlRouterProvider, $locationPr
         })
         .state('samplePage', {
           url: '/samplePage',
-          template: '<sample-page></sample-page>',
-        })
+          template: '<sample-page></sample-page>'
+        });
   $urlRouterProvider.otherwise('/home');
   $locationProvider.html5Mode(false);
 }

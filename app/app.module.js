@@ -31,6 +31,6 @@ angular.module(MODULE_NAME, [uiRouter, ngSanitize, uiBootstrap])
     .component('home', home)
     .component('samplePage', samplePage)
     .service('appService', appService)
-    .config(routing)
+    .config(routing);
 
 export default MODULE_NAME;
