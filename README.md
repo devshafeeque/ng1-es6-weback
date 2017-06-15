@@ -11,14 +11,14 @@ npm install
 npm start
 ```
 
+# Test App
+```
+npm test
+```
+
 # Build App
 ```
 npm run build
-```
-
-# Test App
-```
-npm test 
 ```
 
 This will create dist folder which can be deployed in production server
