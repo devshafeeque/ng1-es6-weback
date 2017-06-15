@@ -8,3 +8,4 @@ karma_html
 .sonar
 .idea
 .vscode
+debug.log
