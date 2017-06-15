@@ -1,6 +1,6 @@
 {
     "name": "angular-es6",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "",
     "main": "src/app/app.module.js",
     "scripts": {
